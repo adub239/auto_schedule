@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Screen Printing Scheduler</title>
+    <!-- Bootstrap CSS for styling -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+
+<div class="container mt-4">
+    <h2>Screen Printing Scheduler</h2>
+
+    <div id="jobContainer">
+        <!-- Job input template, additional ones will be appended below -->
+    </div>
+
+    <button id="addRowBtn" class="btn btn-primary mt-2">+</button>
+    <button id="addJobBtn" class="btn btn-success mt-2 ml-2">Add Jobs</button>
+    
+    <h3 class="mt-4">Added Jobs:</h3>
+    <div id="addedJobsList" class="mt-4"></div>
+
+    <h3 class="mt-4">Schedule</h3>
+    <button id="summarizeBtn" class="btn btn-info">Summarize</button>
+    <div id="output" class="card mt-2">
+        <div class="card-body">
+            <!-- Schedule output will appear here -->
+        </div>
+    </div>
+</div>
+
+<!-- Importing JavaScript for functionality -->
+<script src="script.js"></script>
+
+</body>
+</html>
+
